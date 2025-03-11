@@ -7,10 +7,6 @@ using Azure.Identity;
 using Azure.AI.Projects;
 using Azure;
 
-// Create an Azure AI Client from a connection string, copied from your Azure AI Foundry project.
-// At the moment, it should be in the format "<HostName>;<AzureSubscriptionId>;<ResourceGroup>;<ProjectName>"
-// Customer needs to login to Azure subscription via Azure CLI and set the environment variables
-
 namespace MarkAgentService.ChatAgent
 {
     internal class Program
