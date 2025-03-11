@@ -26,7 +26,7 @@ namespace MarkAgentService.FileUploader
 
  //           fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\artificial_intelligence_and_the_turing_test.docx"));
             fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\artificial_intelligence_and_the_turing_test.pdf"));
-            fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\artificial_intelligence_and_the_turing_test.txt"));
+ //           fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\artificial_intelligence_and_the_turing_test.txt"));
             fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\legacy_of_turing.docx"));
             fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\persecution_and_tragic_end.docx"));
             fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\the_early_life_of_alan_turing.docx"));
