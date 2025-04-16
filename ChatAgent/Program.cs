@@ -27,7 +27,7 @@ namespace MarkAgentService.ChatAgent
             fileSearchToolResource.VectorStoreIds.Add(setx.vectorStoreId);
 
             Response<Agent> agentResponse = await client.CreateAgentAsync(
-                    model: "gpt-4o",
+                    model: "gpt-4o-mini",
                     name: "Mark Q&A Agent",
                     instructions: "You are a helpful agent that use info from files to help answer questions.",
                     tools: new List<ToolDefinition> { new FileSearchToolDefinition() },

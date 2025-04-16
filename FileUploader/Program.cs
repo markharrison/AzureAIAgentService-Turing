@@ -25,14 +25,14 @@ namespace MarkAgentService.FileUploader
             List<string> fileIds = new List<string>();
 
  //           fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\artificial_intelligence_and_the_turing_test.docx"));
-            fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\artificial_intelligence_and_the_turing_test.pdf"));
-            fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\artificial_intelligence_and_the_turing_test.txt"));
-            fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\legacy_of_turing.docx"));
-            fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\persecution_and_tragic_end.docx"));
-            fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\the_early_life_of_alan_turing.docx"));
-            fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\the_turing_machine_and_theoretical_computing.docx"));
-            fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\turing_and_the_enigma_code.docx"));
-            fileIds.Add(await DoFileUpload("C:\\Dev\\markagent\\data\\turing\\turing_posthumous_recognition.docx"));
+            fileIds.Add(await DoFileUpload("C:\\Dev\\data\\turing\\artificial_intelligence_and_the_turing_test.pdf"));
+ //           fileIds.Add(await DoFileUpload("C:\\Dev\\data\\turing\\artificial_intelligence_and_the_turing_test.txt"));
+            fileIds.Add(await DoFileUpload("C:\\Dev\\data\\turing\\legacy_of_turing.docx"));
+            fileIds.Add(await DoFileUpload("C:\\Dev\\data\\turing\\persecution_and_tragic_end.docx"));
+            fileIds.Add(await DoFileUpload("C:\\Dev\\data\\turing\\the_early_life_of_alan_turing.docx"));
+            fileIds.Add(await DoFileUpload("C:\\Dev\\data\\turing\\the_turing_machine_and_theoretical_computing.docx"));
+            fileIds.Add(await DoFileUpload("C:\\Dev\\data\\turing\\turing_and_the_enigma_code.docx"));
+            fileIds.Add(await DoFileUpload("C:\\Dev\\data\\turing\\turing_posthumous_recognition.docx"));
 
 
             if (fileIds.Count == 0)
